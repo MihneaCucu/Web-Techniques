@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Who directed the movie 'Oppenheimer'?",
+        "options": ["Christopher Nolan", "Steven Spielberg", "Martin Scorsese", "Quentin Tarantino"],
+        "answer": "Christopher Nolan"
+    },
+    {
+        "question": "Who played J. Robert Oppenheimer?",
+        "options": ["Cillian Murphy", "Leonardo DiCaprio", "Tom Hanks", "Brad Pitt"],
+        "answer": "Cillian Murphy"
+    },
+    {
+        "question": "Who played Kitty Oppenheimer?",
+        "options": ["Emma Stone", "Jennifer Lawrence", "Emily Blunt", "Florence Pugh"],
+        "answer": "Emily Blunt"
+    },
+    {
+        "question": "Who played Lewis Strauss?",
+        "options": ["Matt Damon", "Robert Downey Jr.", "Brad Pitt", "Robert De Niro"],
+        "answer": "Robert Downey Jr."
+    },
+    {
+        "question": "Where did the Manhattan Project take place?",
+        "options": ["Seattle", "Los Angeles", "Los Alamos", "Fort Lauderdale"],
+        "answer": "Los Alamos"
+    }
+]
