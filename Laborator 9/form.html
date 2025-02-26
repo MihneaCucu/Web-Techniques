@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Formular pentru intrarea în Sistemul Solar</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css" type="text/css">
+      <script type="text/javascript" src="form.js"></script>
+   </head>
+   <body>
+     <h3>FORMULAR PENTRU INTRAREA ÎN SISTEMUL SOLAR</h3>
+      
+     <div id="container"> 
+       <form action="Earth" method="post" target ="_self">
+        <fieldset>
+          <legend>Date personale</legend>
+          
+          <ul>
+            <label for="name">Nume complet:</label>
+            <input type="text" id="name" name="user_name" min="3" max="30" required/>
+          </ul>
+
+          <ul>
+            <label for="id">ID unic:</label>
+            <input type="text" id="id" name="user_id" min="8" max="20" pattern="[0-9]{14}"required/>
+          </ul>
+
+          <ul>
+            <label for="race">Rasă:</label>
+            <select id="race" name="rasa" required>
+          <option selected="">Please choose one option</option>
+          <option>Autobot</option>
+          <option>Daimons</option>
+          <option>Deep Ones</option>
+          <option>Experiment</option>
+          <option>Goa'uld</option>
+          <option>Hutt</option>
+          <option>Jawa</option>
+          <option>Kryptonian</option>
+          <option>Mandalorians</option>
+          <option>Martian</option>
+          <option>Protoss</option>
+          <option>Rodian</option>
+          <option>Romulan</option>
+          <option>Tleilaxu</option>
+          <option>Vogon</option>
+          <option>Wookie</option>
+          <option>Xenu</option>
+          <option>Yeti</option>
+          <option>Zerg</option>
+            </select>
+          </ul>
+
+        <ul>
+          <label for="birthday">Data nașterii:</label>
+          <input type="date" name="bday" required />
+        </ul>
+
+        <ul>
+          <label for="social_credit">Credit social:</label>
+          <input type="range" name="crdit social" id="social_credit" min="0" max="2000" step="50" value="100" required>
+        </ul>
+
+        <ul>
+          <label for="photo">Fotografie:</label>
+          <input type="file" name="Fotografie" id="photo" accept="image/*" multiple="">
+        </ul>
+
+        </fieldset>
+       <fieldset>
+          <legend>Contact</legend>
+
+          <ul>
+            <label for="galaxy">Galaxie proveniență:</label>
+            <input type="text" id="galaxy" name="user_galaxy" required />
+          </ul>
+
+          <ul>
+            <label for="planet">Planetă proveniență:</label>
+            <input type="text" id="planet" name="user_planet" required />
+          </ul>
+
+        <ul>
+          <label for="adress">Adresă:</label>
+          <div>
+          <textarea name="adress" rows="5" cols="48" wrap="hard" resize="none" required></textarea>
+          </div>
+        </ul>
+
+        <ul>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="Email" multiple="" required>
+        </ul>
+
+        <ul>
+          <label for="phone">Telefon:</label>
+          <input type="tel" id="phone" name="Telefon" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+        </ul>
+        <ul>
+          <label for="url">WEB URL:</label>
+          <input type="url" name="WEB URL" id="url" placeholder="https://example.com" pattern="https://.*" size="30" required />
+        </ul>
+       </fieldset>
+       <fieldset>
+          <legend>Semnalmente fizice</legend>
+
+          <ul>
+            <label for="height">Inălțime (10-300cm):</label>
+            <input type="number" name="Inaltime" id="height" min="10" max="300" step="1">
+          </ul>
+
+          <ul>
+            <label for="weight">Greutate (1-500kg):</label>
+            <input type="number" name="Greutate" id="weight" min="1" max="500" step="1">
+          </ul> 
+
+          <ul>
+            <label for="no_members">Nr. membre:</label>
+            <input type="number" name="Nr. membre" id="no_members" min="0" max="" step="1">
+          </ul>
+
+          <ul>
+            <label for="no_eyes">Nr. ochi:</label>
+            <input type="number" name="Nr. ochi" id="no_eyes" min="0" max="" step="1">
+          </ul>  
+
+          <ul>
+            <label for="color">Culoare:</label>
+            <input type="color" id="head" name="head" value="#e66465" />
+          </ul> 
+
+       </fieldset>
+       <fieldset>
+          <legend>Vizită</legend>
+
+          <ul>
+            <label for="visit_date">Dată sosire:</label>
+            <input type="date" name="visit_date" />
+          </ul>
+
+        <ul>
+          <label for="visit_time">Timp estimat sosire:</label>
+          <input type="time" id="appt" name="visit_time" min="" max="" required />
+        </ul>
+
+          <ul>
+            <label for="visit">Ședere:</label>
+            <input type="radio" name="Sedere" id="option_1" value="Temporara" checked = "">
+            <label for="option_1">Temporară</label>
+            <input type="radio" name="Sedere" id="option_3" value="Permanenta">
+            <label for="option_2">Permanentă</label>
+          </ul> 
+        </ul>
+          <ul>
+            <label for="visit_purpose">Scopul vizitei:</label>
+            <div>
+            <input type="checkbox" id="business" name="Afaceri">
+            <label for="business">Afaceri</label>
+            </div>
+
+            <div>
+            <input type="checkbox" id="tourism" name="Turism">
+            <label for="tourism">Turism</label>
+            </div>
+
+            <div>
+            <input type="checkbox" id="social" name="Social (familie & prieteni)">
+            <label for="social">Social (familie & prieteni)</label>
+            </div>
+
+            <div>
+            <input type="checkbox" id="invasion" name="Invazie" checked="">
+            <label for="invasion">Invazie</label>
+            </div>
+
+            <div>
+            <input type="checkbox" id="other" name="Altul">
+            <label for="other">Altul</label>
+            </div>
+          </ul>      
+      
+        <ul>
+          <label for="comments">Comentarii:</label>
+          <div>
+          <textarea name="comments" rows="10" cols="50" wrap="hard" resize="none"></textarea>
+        </div>
+        </ul>
+       </fieldset>
+       <button type="submit" value="Send Request"> Trimite cerere </button>
+       </form>
+     </div>
+   </body>
+</html>

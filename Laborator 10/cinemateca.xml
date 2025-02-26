@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cinemateca>
+	<film category="biografie">
+		<titlu lang="en">Oppenheimer</titlu>
+		<regizor>Cristopher Nolan</regizor>
+		<an>2023</an>
+		<scenarist>Cristopher Nolan</scenarist>
+		<producatori>Cristopher Nolan, Emma Thomas</producatori>
+		<actori>
+			<rol><Principal>Cillian Murphy,Emily Blunt</Principal>
+				<Secundar>Matt Damon, Robert Downey Jr.</Secundar>
+			</rol>
+		</actori>
+		<scor>93%</scor>
+	</film>
+	<film category="Sci-Fi">
+		<titlu lang="en">Dune: Part Two</titlu>
+		<regizor>Denis Villeneuve</regizor>
+		<an>2024</an>
+		<scenarist>Denis Villeneuve</scenarist>
+		<producatori>Denis Villeneuve, Zendaya</producatori>
+		<actori>
+			<rol><Principal>Timothee Chalamet, Zendaya</Principal>
+				<Secundar>Javier Bardem, Josh Brolin</Secundar>
+			</rol>
+		</actori>
+		<scor>92%</scor>
+	</film>
+</cinemateca>
